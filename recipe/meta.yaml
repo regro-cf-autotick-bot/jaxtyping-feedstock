@@ -20,10 +20,9 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - jax >=0.3.4
     - numpy >=1.20.0
     - typeguard >=2.13.3
-    - typing-extensions >=4.2.0
+    - typing-extensions >=3.7.4.1
 
 test:
   imports:
