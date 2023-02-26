@@ -1,11 +1,11 @@
-About jaxtyping
-===============
+About jaxtyping-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jaxtyping-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/google/jaxtyping
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jaxtyping-feedstock/blob/main/LICENSE.txt)
 
 Summary: Type annotations and runtime checking for shape and dtype of JAX arrays, and PyTrees.
 
