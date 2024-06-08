@@ -1,5 +1,5 @@
 {% set name = "jaxtyping" %}
-{% set version = "0.2.28" %}
+{% set version = "0.2.29" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jaxtyping-{{ version }}.tar.gz
-  sha256: cd20bf1558a90c6d77c589354e35670ecc5b94925ef45bf1c020fde7b44fac8d
+  sha256: e1cd916ed0196e40402b0638449e7d051571562b2cd68d8b94961a383faeb409
 
 build:
   noarch: python
@@ -21,9 +21,7 @@ requirements:
     - hatchling
   run:
     - python >=3.9
-    - numpy >=1.20.0
-    - typeguard >=2.13.3,<3
-    - typing-extensions >=3.7.4.1
+    - typeguard ==2.13.3
 
 test:
   imports:
